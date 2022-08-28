@@ -1,4 +1,4 @@
-public class Mahasiswa {
+class Mahasiswa {
     public String NIM,  nama, jenis_kelamin, alamat;
     public void isiData(String NIM, String nama,String jenis_kelamin, String alamat){
          this.NIM = NIM;
