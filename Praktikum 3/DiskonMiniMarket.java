@@ -23,7 +23,7 @@ public class DiskonMiniMarket {
         // tambahkan code untuk mengimplementasikan ketentuan diskon yang ditetapkan
 
         // tambahkan code untuk menampilkan nominal yang harus dibayar sesuai dengan ketentuan diskon yang diberikan
-        System.out.println("Harga setelah discount : "+Math.ceil(totalPembelian));
+        System.out.println("Harga setelah discount"+""+" : "+Math.ceil(totalPembelian));
         sc.close();
     }
 }
