@@ -7,6 +7,6 @@ public class No_2_DoWhileLoopDemo {
             if(arr.length==0) break;
             System.out.println("elemen ke-" + i + " = " + arr[i]);
             i++;
-        }while(i<=arr.length);
+        }while(i<arr.length);
     }
 }
