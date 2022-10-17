@@ -19,7 +19,6 @@ public class PPBO_06_Latihan1 {
         public static Mahasiswa [] mahasiswaArr = new Mahasiswa[5];
         Kelas(){
             namaKelas++;
-            Mahasiswa.kode_nim++;
             for(;jumlah<5;jumlah++){
                 mahasiswaArr[jumlah] = new Mahasiswa();
             }
