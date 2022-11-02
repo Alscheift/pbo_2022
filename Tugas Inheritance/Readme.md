@@ -1,0 +1,1 @@
+Tugas Inheritance (Due Date 3 November 2022 9:05 AM) -- Google Classroom
