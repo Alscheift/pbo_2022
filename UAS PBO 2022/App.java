@@ -1,3 +1,9 @@
+/* UAS Pemrograman Berbasis Objek 2022
+ *
+ * Afif Nur Fauzi (M0521007)
+ * Kelas A 
+ * Informatika 2021
+ */
 
 public class App {
     public static void main(String[] args) {
