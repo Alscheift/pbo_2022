@@ -17,6 +17,25 @@ public class PegawaiHonorer implements Pegawai {
         return this.gajiPokok;
     }
 
+    // override toString() untuk print object
+    @Override
+    public String toString() {
+        return String.format(
+            "ID Pegawai     : %d\n"+
+            "Nama Pegawai   : %s\n"+
+            "Alamat Pegawai : %s\n"+
+            "Status Pegawai : %s\n"+
+            "Gaji Pokok     : %d\n"+
+            "Gaji Total     : %d\n",
+            this.idPegawai,
+            this.namaPegawai,
+            this.alamatPegawai,
+            "Pegawai Honorer",
+            this.gajiPokok,
+            this.hitungGaji()
+        );
+    }
+
     // Constructor
     public PegawaiHonorer(String namaPegawai, String alamatPegawai, Integer gajiPokok){
         PegawaiHonorer.jumlahPegawaiHonorer++;

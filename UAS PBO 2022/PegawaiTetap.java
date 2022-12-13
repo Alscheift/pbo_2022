@@ -10,11 +10,32 @@ public class PegawaiTetap implements Pegawai {
     public static Integer getJumlahPegawaiTetap(){
         return PegawaiTetap.jumlahPegawaiTetap;
     }
-
+    
     // hitungGaji() dari interface Pegawai
     @Override
     public Integer hitungGaji() {
         return this.gajiPokok+this.tunjangan;
+    }
+
+    // override toString() untuk print object
+    @Override
+    public String toString() {
+        return String.format(
+            "ID Pegawai     : %d\n"+
+            "Nama Pegawai   : %s\n"+
+            "Alamat Pegawai : %s\n"+
+            "Status Pegawai : %s\n"+
+            "Gaji Pokok     : %d\n"+
+            "Tunjangan      : %d\n"+
+            "Gaji Total     : %d\n",
+            this.idPegawai,
+            this.namaPegawai,
+            this.alamatPegawai,
+            "Pegawai Tetap",
+            this.gajiPokok,
+            this.tunjangan,
+            this.hitungGaji()
+        );
     }
 
     // Constructor
