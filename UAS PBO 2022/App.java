@@ -16,7 +16,11 @@ public class App {
         arrayPegawaiHonorer[3] = new PegawaiHonorer("Rendi", "Semarang", 3900024);
         arrayPegawaiHonorer[4] = new PegawaiHonorer("Aldi", "Surabaya", 4000025);
 
-
+        
+        ThreadPrint thread1 = new ThreadPrint(arrayPegawaiTetap);
+        ThreadPrint thread2 = new ThreadPrint(arrayPegawaiHonorer);
+        thread1.start(); 
+        thread2.start(); 
          
     }
 }
