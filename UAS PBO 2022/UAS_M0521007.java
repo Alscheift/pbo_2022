@@ -11,5 +11,9 @@ public class UAS_M0521007 {
     }
 }
 
-
+/** Interface Pegawai
+ */
+interface M0521007_Pegawai {
+    public Integer hitungGaji();
+}
 
