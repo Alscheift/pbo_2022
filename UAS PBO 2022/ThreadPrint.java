@@ -10,7 +10,7 @@ public class ThreadPrint extends Thread{
         for (Object object : objectToPrint) {
             System.out.println(object);
             try {
-                this.wait(500);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println("!! Proses Terinterupsi !!");
                 e.printStackTrace();
